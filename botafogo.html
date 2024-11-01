@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botafogo</title>
+    <style>
+        body{
+            background-color: black;
+            
+        }
+
+       
+        header{
+           
+        }
+
+        header img{
+        max-width: 50px;
+        display: block;
+        margin: auto;
+        }
+
+        header h1{
+            text-align: center;
+            font-size: medium;
+            color: white;
+            text-decoration: overline white;
+        }
+
+       
+
+        main{
+            box-shadow: 0px 0px 0px 1px white;
+            margin: auto;
+            background-image: url(CzuKN3YWEAIpXuF.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center left;
+        }
+
+        .nav {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            
+            
+        }
+
+        .nav a{
+            color: white;
+            margin-right: 20px;
+            text-decoration: overline white;
+            text-shadow: 0px 0px 2px white; 
+            background-color: black; 
+        }
+
+    
+
+        .pxjg{
+            
+            
+            
+           
+        }
+
+        .pxjg img{
+            max-width: 350px;
+            box-shadow: 0px 0px 0px 1px white;
+            border-radius: 15px; 
+            display: block;
+            margin: auto;
+            
+            
+            
+            
+        }
+
+        .pxjg p{
+            color: white;
+            font-size: medium;
+            font-style: italic;
+            text-align: center;
+        }
+
+        
+        
+
+        .slideshow-container {
+            position: relative;
+            max-width: 400px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+/* Estilo das imagens */
+.slide {
+    display: none;
+    padding: 10px;
+    
+}
+
+.slide img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 0px 1px white;
+    
+}
+
+/* Efeito de fade */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4 }
+    to { opacity: 1 }
+}
+
+/* Botões de navegação */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: small;
+    padding: 20px;
+    text-shadow: 0px 0px 2px black;
+
+}
+
+.redes{
+     
+}
+
+.redes img{
+  display: block;
+  margin: auto;
+  max-width: 50px;
+  
+
+}
+
+.redes a{
+    margin: auto;
+    
+}
+
+main p{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 0px 0px 2px black;
+    text-decoration: overline white;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="botafogo-logo-escudo-6.png" alt="botafogo">
+        <h1>BOTAFOGO DE FUTEBOL E REGATAS</h1>
+    </header>
+    <main>
+        <div class="nav">
+<a href="">    CALENDÁRIO        </a>
+<a href="">   STORE         </a>
+<a href="">   INGRESSOS         </a>
+<a href="">    ELENCO        </a>
+        </div>
+        <div class="slide fade">
+            <img src="23eedbaa749151c124b80822a986a5ae.jpg" alt="Imagem 1">
+        </div>
+        <div class="slide fade">
+            <img src="edaa7e63127f497ebf6dd9196e97deef.png" alt="Imagem 2">
+        </div>
+        </div>
+
+        </div>
+
+
+
+        <!-- Botões de navegação -->
+        <a class="prev" onclick="mudarSlide(-1)">&#10094;</a>
+        <a class="next" onclick="mudarSlide(1)">&#10095;</a>
+    </div>
+            <div class="pxjg">
+                <img src="th.jpg" alt="">
+                <p>FINAL LIBERTADORES 30.11.24</p>
+            </div>
+            </div>
+        </div>
+        <div class="colecao">
+            <img src="" alt="">
+        </div>
+    
+        </div>
+           <p>SIGA O BOTAFOGO:</p>
+        <div class="redes">
+            <a href=""><img src="instagram-logo-instagram-icon-transparent-free-png.webp"  alt=""></a>
+            <a href=""><img src="youtube-logo-transparent-free-png.webp" alt=""></a>
+           
+        </div>
+
+
+
+        <!-- Botões de navegação -->
+        <a class="prev" onclick="mudarSlide(-1)">&#10094;</a>
+        <a class="next" onclick="mudarSlide(1)">&#10095;</a>
+    </div>
+        
+  
+    </main>
+    <footer>
+        <p>SITE CRIADO E DESENVOLVIDO POR VITOR PEREIRA</p>
+    </footer>
+    <script src="fogo.js"></script>
+</body>
+</html>
